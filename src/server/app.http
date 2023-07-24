@@ -26,5 +26,5 @@ GET http://localhost:3042/alldevelopers
 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjRiZTFkMmZjMGEwY2E2N2Y3NjExMzU4IiwiaWF0IjoxNjkwMTgwOTc1LCJleHAiOjYyOTAxODA5NzV9.ChXUGk4Emzi5SiWnSnaSpfe-RsfpRmjZIql8e9nzomg   
 
 ###
-GET http://localhost:3042/individualProfile/64be1d2fc0a0ca67f7611358
+GET http://localhost:3042/individualProfile/64be0400377f5d6c04f849ce
 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjRiZTFkMmZjMGEwY2E2N2Y3NjExMzU4IiwiaWF0IjoxNjkwMTgwOTc1LCJleHAiOjYyOTAxODA5NzV9.ChXUGk4Emzi5SiWnSnaSpfe-RsfpRmjZIql8e9nzomg   
