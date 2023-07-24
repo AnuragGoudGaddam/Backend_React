@@ -1,24 +1,30 @@
-GET http://localhost:3040/
+GET http://localhost:3042/
 ###
 
-POST http://localhost:3040/register/
+POST http://localhost:3042/register/
 Content-Type: application/json
 
 {
         "fullname":"Anurag",
-        "email":"anuraggoudga@gmail.com",
+        "email":"anurag123@gmail.com",
         "mobile":"745387548",
         "skills":"node.js",
-        "password":"anurag2245",
-        "confirmPassword":"anurag2245"
+        "password":"anurag22",
+        "confirmPassword":"anurag22"
 }
 ###
-POST http://localhost:3040/login
+POST http://localhost:3042/login
 Content-Type: application/json
+
 {
-     "email":"anuraggoudanu@gmail.com",
-        "password":"anurag7093"
+     "email":"anurag123@gmail.com",
+        "password":"anurag22"
 
 }
 ###
-GET http://localhost:3043/alldevelopers
+GET http://localhost:3042/alldevelopers
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjRiZTFkMmZjMGEwY2E2N2Y3NjExMzU4IiwiaWF0IjoxNjkwMTgwOTc1LCJleHAiOjYyOTAxODA5NzV9.ChXUGk4Emzi5SiWnSnaSpfe-RsfpRmjZIql8e9nzomg   
+
+###
+GET http://localhost:3042/individualProfile/64be1d2fc0a0ca67f7611358
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjRiZTFkMmZjMGEwY2E2N2Y3NjExMzU4IiwiaWF0IjoxNjkwMTgwOTc1LCJleHAiOjYyOTAxODA5NzV9.ChXUGk4Emzi5SiWnSnaSpfe-RsfpRmjZIql8e9nzomg   
