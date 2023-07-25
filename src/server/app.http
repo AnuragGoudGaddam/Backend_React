@@ -1,7 +1,7 @@
-GET http://localhost:3042/
+GET http://localhost:3045/
 ###
 
-POST http://localhost:3042/register/
+POST http://localhost:3045/register/
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
         "confirmPassword":"anurag22"
 }
 ###
-POST http://localhost:3042/login
+POST http://localhost:3045/login
 Content-Type: application/json
 
 {
@@ -22,9 +22,9 @@ Content-Type: application/json
 
 }
 ###
-GET http://localhost:3042/alldevelopers
+GET http://localhost:3045/alldevelopers
 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjRiZTFkMmZjMGEwY2E2N2Y3NjExMzU4IiwiaWF0IjoxNjkwMTgwOTc1LCJleHAiOjYyOTAxODA5NzV9.ChXUGk4Emzi5SiWnSnaSpfe-RsfpRmjZIql8e9nzomg   
 
 ###
-GET http://localhost:3042/individualProfile/64be0400377f5d6c04f849ce
+GET http://localhost:3045/individualProfile/64be0400377f5d6c04f849ce
 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjRiZTFkMmZjMGEwY2E2N2Y3NjExMzU4IiwiaWF0IjoxNjkwMTgwOTc1LCJleHAiOjYyOTAxODA5NzV9.ChXUGk4Emzi5SiWnSnaSpfe-RsfpRmjZIql8e9nzomg   
